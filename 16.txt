@@ -1,0 +1,10 @@
+e=2**1000
+e2=map(int,str(e))
+totalSum(e2)
+
+
+def totalSum(num):
+	sum=0
+	for x in num:
+		sum+=x
+	return sum

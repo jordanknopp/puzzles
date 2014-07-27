@@ -1,0 +1,8 @@
+for j in range(1,300000000):
+	if j%20 == 0:
+		score=0
+		for i in range(1,21):
+			if j%i == 0:
+				score += 1
+		if score > 19:
+			print j

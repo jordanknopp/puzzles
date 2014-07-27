@@ -1,0 +1,21 @@
+Need to gather factors and to test for primes.
+Note: Square root is upper limit!
+
+p=600851475143
+q=600851475143**0.5
+
+for i in range(2,int(q)):
+	if p%i==0:
+		if(isPrime(i)):
+			print i
+		
+		
+def isPrime(n):
+	if n==2 or n==3 or n==5:
+		return True
+	if n%2==0 or n%3==0 or n%5==0:
+		return False
+	for i in range(2,int(n**0.5)+1):
+		if n%i==0:
+			return False
+	return True

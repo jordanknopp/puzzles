@@ -1,0 +1,31 @@
+Make a list of all words used...there is a lot of overlap, so far less than 1000 will need to be counted
+
+one -> nine = 36 letters
+ten -> nineteen = 70
+
+twenty -> twenty nine = 6 + (6*9) + 36 = 96
+thirty -> thirty nine = 6 + (6*9) + 36 = 96
+forty -> forty nine = 5 + (5*9) + 36 = 86
+fifty -> fifty nine = 5 + (5*9) + 36 = 86
+sixty -> sixty nine = 5 + (5*9) + 36 = 86
+seventy -> seventy nine = 7 + (7*9) + 36 = 106
+eighty -> eighty nine = 6 + (6*9) + 36 = 96
+ninety -> ninety nine = 6 + (6*9) + 36 = 96
+
+1 -> 99 = 36+70+(96*4)+(86*3)+106 = 854
+
+one hundred = 10, "one hundred and" = 13
+"one hundred and" one -> 199 = 10 + (13*854) = 11112
+two hundred -> 299 = 10 + (13*854) = 11112
+three hundred -> 399 = 12 + (15*854) = 12822
+four hundred -> 499 = 11 + (14*854) = 11967
+five hundred -> 599 = 11 + (14*854) = 11967
+six hundred -> 699 = 10 + (13*854) = 11112
+seven hundred -> 799 = 12 + (15*854) = 12822
+eight hundred -> 899 = 12 + (15*854) = 12822
+nine hundred -> 999 = 11 + (14*854) = 11967
+one thousand = 11
+
+
+total = 854  + (3*11112) + (3*11967) + (3*12822) + 11
+......(1-99)

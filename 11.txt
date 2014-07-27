@@ -1,0 +1,5 @@
+Paste grid into word
+Highlight all 00 - 09
+paste highlighted grid into paint
+draw lines through anything touching 00 - 09
+see the answer easily
