@@ -1,0 +1,14 @@
+How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
+
+12 months per year
+100 years x 12 months = 1200 months
+Expect 1/7 of these to be a Sunday
+1200/7 ~ 171
+
+Turns out this answer is correct...even though there is some shifting
+(e.g. Feb being 28 days, which is divisble by 7, means that the 1st of Feb
+and the 1st of Mar will be the same day of the week, except during leap years.
+also in 1901, sunday was the first of the month 2/12 times, which is actually 1/6)
+
+I imagine this evens out over the course of 100 years as all the "irregularities" of the
+calendar are repeated evenly.
