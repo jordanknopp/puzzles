@@ -1,0 +1,8 @@
+Find the sum of the digits in the number 100!
+
+
+Calculate 100!
+parse digits into separate strings
+add strings together by converting to int
+
+dumb problem, not going to bother
